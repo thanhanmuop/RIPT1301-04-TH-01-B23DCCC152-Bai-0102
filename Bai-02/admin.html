@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+    <h2>Student Management</h2>
+    <form id="student-form">
+        Tên: <input type="text" id="name" required><br>
+        Tuổi: <input type="number" id="age" required><br>
+        Địa chỉ: <input type="text" id="address" required><br>
+        SDT: <input type="number" id="phone" required><br>
+        Email: <input type="email" id="email" required><br>
+        Lớp học: <input type="text" id="class" required><br>
+        <input type="submit" value="Thêm mới">
+    </form>
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>Địa chỉ</th>
+                <th>SDT</th>
+                <th>Email</th>
+                <th>Lớp học</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="admin.js"></script>
+</body>
+</html>
